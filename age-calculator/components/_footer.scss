@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    justify-content: flex-end;
+    img {
+        width: 3rem;
+        filter: invert(49%) sepia(38%) saturate(4798%) hue-rotate(358deg) brightness(101%) contrast(93%);
+       
+    }
+}
+.footer-message {
+    color: $light;
+    a {
+        color: $orange;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $bluelight;
+    }
+}

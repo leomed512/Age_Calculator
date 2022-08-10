@@ -1,0 +1,23 @@
+body {
+    background-color: $bg;
+}
+.calculator-container {
+    margin-block-start: 10%;
+   color: $light;    
+   border: solid 3px $main;
+   border-radius: 10px;
+}
+#displayAge p {
+    color: $orange;
+}
+.refreshBtn button {
+    background-color: $light;
+    border: none;
+    color: $bg;
+    border: solid 1px rgba($bluelight, $alpha: 0.2);
+}
+.refreshBtn button:hover {
+    background-color: $yellow;
+    color: $bg;
+}
+
